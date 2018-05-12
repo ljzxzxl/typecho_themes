@@ -58,6 +58,7 @@
                     <?php while($pages->next()): ?>
                     <a<?php if($this->is('page', $pages->slug)): ?> class="current"<?php endif; ?> href="<?php $pages->permalink(); ?>" title="<?php $pages->title(); ?>"><?php $pages->title(); ?></a>
                     <?php endwhile; ?>
+                    <a href="/os" target="_blank">系统</a>
                 </nav>
             </div>
             <div class="site-search kit-hidden-tb col-3"> <!-- kit-hidden-tb -->

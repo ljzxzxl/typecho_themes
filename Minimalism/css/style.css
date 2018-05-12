@@ -137,7 +137,7 @@ textarea {
 	padding: 5px 0;
 	line-height: 40px;
 	z-index: 999;
-	letter-spacing: -999px;
+	letter-spacing: -5px;
 }
 #nav-menu a {
 	display: inline-block;

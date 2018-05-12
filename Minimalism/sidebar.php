@@ -11,9 +11,9 @@
             </span>
         </div>
         <div class="follow-me">
-            <a href="http://music.163.com/#/user/home?id=39537605" target="_blank">Music</a>
-            <a href="https://github.com/WarnerYang" target="_blank">Github</a>
-            <a href="tencent://message/?uin=934797303&amp;Site=&amp;Menu=yes">QQ</a>
+            <a href="https://music.163.com/#/playlist?id=55914568&userid=56816886" target="_blank">Music</a>
+            <a href="https://github.com/ljzxzxl" target="_blank">Github</a>
+            <a href="tencent://message/?uin=171145707&amp;Site=&amp;Menu=yes">QQ</a>
         </div>
     </section>
     <?php if(isset($this->options->plugins['activated']['Views'])): ?>
@@ -73,7 +73,7 @@
 				<li class="last"><a href="<?php $this->options->adminUrl(); ?>"><?php _e('进入后台'); ?> (<?php $this->user->screenName(); ?>)</a></li>
                 <li><a href="<?php $this->options->logoutUrl(); ?>"><?php _e('退出'); ?></a></li>
             <?php else: ?>
-                <li class="last"><a href="<?php $this->options->adminUrl('login.php'); ?>"><?php _e('登录'); ?></a></li>
+                <li class="last"><a href="<?php $this->options->adminUrl('login.php'); ?>" target="_blank"><?php _e('登录'); ?></a></li>
             <?php endif; ?>
             <li><a href="<?php $this->options->feedUrl(); ?>"><?php _e('文章 RSS'); ?></a></li>
             <li><a href="<?php $this->options->commentsFeedUrl(); ?>"><?php _e('评论 RSS'); ?></a></li>
