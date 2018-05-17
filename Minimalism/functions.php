@@ -77,3 +77,11 @@ function themeFields($layout) {
 }
 */
 
+/**
+ * 设置首页文章分页条数
+ */
+function themeInit($archive) {
+    if ($archive->is('index')) {
+        $archive->parameter->pageSize = 10; // 自定义条数
+    }
+}
