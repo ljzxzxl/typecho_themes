@@ -15,7 +15,5 @@
 <script src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
 <script src="<?php $this->options->themeUrl('js/main.js'); ?>"></script>
-<script src="<?php $this->options->themeUrl('js/instantclick.js'); ?>" data-no-instant></script> 
-<script data-no-instant>InstantClick.init();</script>
 </body>
 </html>
