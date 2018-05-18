@@ -3,10 +3,10 @@
     <?php if (!empty($this->options->sidebarBlock)): ?>
     <?php $bing = bing(); ?> <!-- 获取今日必应壁纸 -->
     <section class="widget">
-        <div class="info-header" style="background-image:url('<?php _e($this->options->siteUrl().date('Ymd').'.jpg'); ?>');">
+        <div class="info-header" title="<?php echo $bing['para1'];?>" style="background-image:url('<?php _e($this->options->siteUrl().date('Ymd').'.jpg'); ?>');">
             <span class="info-header-img">
                 <a href="<?php $this->options->adminUrl(); ?>" target="_blank">
-                    <img src="<?php $this->options->themeUrl('img/header.jpg'); ?>">
+                    <img title="<?php echo $bing['title'];?>" src="<?php $this->options->themeUrl('img/header.jpg'); ?>">
                 </a>
             </span>
         </div>
