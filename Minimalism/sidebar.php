@@ -5,9 +5,7 @@
     <section class="widget">
         <div class="info-header" title="<?php echo $bing['para1'];?>" style="background-image:url('<?php _e($this->options->siteUrl().date('Ymd').'.jpg'); ?>');">
             <span class="info-header-img">
-                <a href="<?php $this->options->adminUrl(); ?>" target="_blank">
-                    <img title="<?php echo $bing['title'];?>" src="<?php $this->options->themeUrl('img/header.jpg'); ?>">
-                </a>
+                <img title="<?php echo $bing['title'];?>" src="<?php $this->options->themeUrl('img/header.jpg'); ?>">
             </span>
         </div>
         <div class="follow-me">
