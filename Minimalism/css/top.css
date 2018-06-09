@@ -43,9 +43,14 @@ div#pulldown-menu {
 #pulldown-menu > ul {
 	padding-top: 10px;
 	padding-bottom: 10px;
+	padding-left: 0px;
 	-webkit-column-break-inside: avoid; /*Chrome, Safari*/
 	display: table;	/*Firefox*/
 	break-inside: avoid; /*IE 10+ theoretically*/
+}
+
+#pulldown-menu ul {
+	padding-left: 0px;
 }
 
 #pulldown-menu ul li.toctree-l2 {
