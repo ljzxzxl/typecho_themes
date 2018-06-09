@@ -22,9 +22,9 @@
     <link href="//cdn.bootcss.com/normalize/7.0.0/normalize.min.css" rel="stylesheet">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('css/grid.css'); ?>">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('css/style.css'); ?>">
+    <link rel="stylesheet" href="<?php $this->options->themeUrl('css/top.css'); ?>">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
     
-
     <!--[if lt IE 9]>
     <script src="http://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
     <script src="http://cdn.staticfile.org/respond.js/1.3.0/respond.min.js"></script>
@@ -40,6 +40,33 @@
 <![endif]-->
 
 <header id="header" class="clearfix Navbar visible">
+    <div id="nav">
+        <div id="nav_inner">
+            <div id="pulldown-menu" class="ciNav">
+                <ul>
+                    <li class="toctree-l1">
+                        <a class="reference internal" href="javascript:;">欢迎访问！</a>
+                        <ul class="simple">
+                        </ul>
+                    </li>
+                </ul>
+                <?php $this->widget('Widget_Metas_Category_List')->to($categories); ?>
+                <?php while ($categories->next()): ?>
+                <ul>
+                    <li class="toctree-l1">
+                        <a class="reference internal" href="<?php $categories->permalink(); ?>/"><?php $categories->name(); ?></a>
+                        <?php $this->widget('Widget_Archive@category-' . $categories->mid, 'pageSize=7&type=category', 'mid=' . $categories->mid)->to($posts); ?>
+                        <ul>
+                            <?php while ($posts->next()): ?>
+                            <li class="toctree-l2"><a class="reference internal" href="<?php $posts->permalink(); ?>"><?php $posts->title(40); ?></a></li>
+                            <?php endwhile; ?>
+                        </ul>
+                    </li>
+                </ul>
+                <?php endwhile; ?>
+            </div>
+        </div>
+    </div>
     <div class="container">
         <div class="row">
             <div class="site-name col-mb-3 col-2">
@@ -59,6 +86,7 @@
                     <a<?php if($this->is('page', $pages->slug)): ?> class="current"<?php endif; ?> href="<?php $pages->permalink(); ?>" title="<?php $pages->title(); ?>"><?php $pages->title(); ?></a>
                     <?php endwhile; ?>
                     <a href="/os" title="PHP版本：<?php echo PHP_VERSION;?>">系统</a>
+                    <a href="javascript:;" id="openToc">目录</a>
                 </nav>
             </div>
             <div class="site-search kit-hidden-tb col-3"> <!-- kit-hidden-tb -->
