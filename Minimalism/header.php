@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="<?php $this->options->themeUrl('css/style.css'); ?>">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('css/top.css'); ?>">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
-    
+
     <!--[if lt IE 9]>
     <script src="http://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
     <script src="http://cdn.staticfile.org/respond.js/1.3.0/respond.min.js"></script>
@@ -85,7 +85,7 @@
                     <?php while($pages->next()): ?>
                     <a<?php if($this->is('page', $pages->slug)): ?> class="current"<?php endif; ?> href="<?php $pages->permalink(); ?>" title="<?php $pages->title(); ?>"><?php $pages->title(); ?></a>
                     <?php endwhile; ?>
-                    <a href="/os" title="PHP版本：<?php echo PHP_VERSION;?>">系统</a>
+                    <a href="/os" title="PHP版本：<?php echo PHP_VERSION;?>">管理</a>
                     <a href="javascript:;" id="openToc">目录</a>
                 </nav>
             </div>

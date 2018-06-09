@@ -9,6 +9,7 @@
 </div>
 <footer id="footer" role="contentinfo">
 	&copy; <?php echo date('Y'); ?> <a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title(); ?></a> | 沪ICP备14044094号-1 | Theme By <a href="https://github.com/WarnerYang/typecho_themes">Minimalism</a>
+    | 网站已运行 <?php getBuildTime(); ?>
 </footer><!-- end #footer -->
 
 <?php $this->footer(); ?>

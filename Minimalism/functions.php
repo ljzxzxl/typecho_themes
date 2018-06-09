@@ -85,3 +85,46 @@ function themeInit($archive) {
         $archive->parameter->pageSize = 10; // 自定义条数
     }
 }
+
+/**
+ * 秒转时间，格式 年 月 日 时 分 秒
+ *
+ * @author Roogle
+ * @return string
+ */
+function getBuildTime(){
+    // 在下面按格式输入本站创建的时间
+    $site_create_time = strtotime('2018-04-18 12:00');
+    $time = time() - $site_create_time;
+    if(is_numeric($time)){
+        $time_str = '';
+        $value = array(
+            "years" => 0, "days" => 0, "hours" => 0,
+            "minutes" => 0, "seconds" => 0,
+        );
+        if($time >= 31556926){
+            $value["years"] = floor($time/31556926);
+            $time = ($time%31556926);
+            $time_str .= $value['years'].'年';
+        }
+        if($time >= 86400){
+            $value["days"] = floor($time/86400);
+            $time = ($time%86400);
+            $time_str .= $value['days'].'天';
+        }
+        if($time >= 3600){
+            $value["hours"] = floor($time/3600);
+            $time = ($time%3600);
+            $time_str .= $value['hours'].'小时';
+        }
+        if($time >= 60){
+            $value["minutes"] = floor($time/60);
+            $time = ($time%60);
+            $time_str .= $value['minutes'].'分';
+        }
+        $value["seconds"] = floor($time);
+        echo $time_str;
+    }else{
+        echo '';
+    }
+}
