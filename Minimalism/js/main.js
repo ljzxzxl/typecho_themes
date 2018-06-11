@@ -50,5 +50,14 @@ jQuery(document).ready(function($) {
 	$('#openToc').click(function () {
 		$('#nav').slideToggle();
 	});
+	//点击顶栏以外区域隐藏下拉目录
+    $('body').click(function(e) {
+        var target = $(e.target);
+        if(!target.is('#header *')){
+            if($('#nav').is(':visible')){
+                $('#nav').slideUp();
+            }
+        }
+    })
 });
 
