@@ -9,7 +9,10 @@ jQuery(document).ready(function($) {
 			setTimeout(function(){$('#header').removeClass('visible');},200);
 			$('.hamburger').removeClass("is-active");
 			$("#nav-menu").removeAttr('style');
-
+			//下滚时自动隐藏下拉目录
+			if($("#nav").is(":visible")){
+				$('#nav').slideUp();
+			}
 		}else{
 			setTimeout(function(){$('#header').addClass('visible');},150);
 		}  
@@ -41,6 +44,11 @@ jQuery(document).ready(function($) {
 		}catch(e){
 
 		}
+	});
+
+	//顶部下拉目录
+	$('#openToc').click(function () {
+		$('#nav').slideToggle();
 	});
 });
 

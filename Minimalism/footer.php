@@ -100,9 +100,6 @@
 
     };
     $(function(){ $(".container img").popImg(); });
-    $('#openToc').click(function () {
-        $('#nav').slideToggle();
-    });
 </script>
 </body>
 </html>
