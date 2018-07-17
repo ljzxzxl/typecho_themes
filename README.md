@@ -1,9 +1,10 @@
 #### typecho 主题
 
-- Minimalism 极简主义 ，目前[本博客](https://yanghuaqiang.com)采用此主题，蓝白基调，素雅高贵。
-觉得不错的话就给个 start 呗
+- 这是一个基于typecho主题 [Minimalism](https://github.com/WarnerYang/typecho_themes) 的个人修改版。
+主要是根据个人需要添加了一些（如顶端目录，文章图片放大，运行时间等）功能。
 
-![image](https://yanghuaqiang.com/usr/themes/Minimalism/img/20171228121710.png)
+在此特别感谢 [WarnerYang](https://github.com/WarnerYang) 写出的这么一个素雅高贵的typecho优秀主题。
 
+主题效果可通过 [此博客](https://xeylon.com) 查看。欢迎fork，喜欢请star，谢谢！
 
-- Mecho 主题就很粗糙了，权当练手之作
+![image](http://xeylon.com/usr/themes/Minimalism/screenshot.png)
