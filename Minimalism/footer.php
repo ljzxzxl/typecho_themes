@@ -99,7 +99,7 @@
         });
 
     };
-    $(function(){ $(".container img").popImg(); });
+    $(function(){ $(".post-content img").popImg(); });
 </script>
 </body>
 </html>
