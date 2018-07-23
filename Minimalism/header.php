@@ -54,7 +54,7 @@
                 <?php while ($categories->next()): ?>
                 <ul>
                     <li class="toctree-l1">
-                        <a class="reference internal" href="<?php $categories->permalink(); ?>/"><?php $categories->name(); ?></a>
+                        <a class="reference internal" href="<?php $categories->permalink(); ?>"><?php $categories->name(); ?></a>
                         <?php $this->widget('Widget_Archive@category-' . $categories->mid, 'pageSize=7&type=category', 'mid=' . $categories->mid)->to($posts); ?>
                         <ul>
                             <?php while ($posts->next()): ?>
