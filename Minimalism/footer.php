@@ -13,8 +13,8 @@
 </footer><!-- end #footer -->
 
 <?php $this->footer(); ?>
-<script src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="<?php $this->options->themeUrl('js/jquery-3.3.1.min.js'); ?>"></script>
+<script src="<?php $this->options->themeUrl('js/highlight.pack.js'); ?>"></script>
 <script src="<?php $this->options->themeUrl('js/main.js'); ?>"></script>
 <script type="text/javascript">
     $.fn.popImg = function() {

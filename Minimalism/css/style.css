@@ -45,9 +45,9 @@ code {
 	color: #71777c;
 }
 pre {
-	padding: 8px;
+	padding: 0px;
 	overflow: auto;
-	max-height: 400px;
+	max-height: 600px;
 }
 pre code {
 	padding: 3px;

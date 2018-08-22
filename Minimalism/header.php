@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="<?php $this->options->themeUrl('css/grid.css'); ?>">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('css/style.css'); ?>">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('css/top.css'); ?>">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+    <link rel="stylesheet" href="<?php $this->options->themeUrl('css/darcula.css'); ?>">
 
     <!--[if lt IE 9]>
     <script src="http://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
