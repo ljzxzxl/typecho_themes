@@ -110,3 +110,26 @@ div#pulldown-menu {
 em {
 	font-style: normal;
 }
+
+/*主图增加角标描述*/
+.arrow01:after {
+	/*插入文字*/
+	content: "bing";
+	/*绝对定位*/
+	position: absolute;
+	/*绘制正方形*/
+	left: 0;
+	top: 0;
+	width: 40px;
+	height: 40px;
+	/*将内边距绘制在宽高内 避免调整宽高*/
+	box-sizing: border-box;
+	/*调整文字位置*/
+	padding: 4px 0 0 1px;
+	/*有角度的双色背景*/
+	background: linear-gradient(135deg, #aaa 50%, transparent 50%);
+	/*透明  0% -50% 绿色 50% -100%*/
+	font-size: 11px;
+	line-height: 18px;
+	color: #fff;
+}
