@@ -4,7 +4,7 @@
     <?php $bing = bing(); ?> <!-- 获取今日必应壁纸 -->
     <section class="widget">
         <div class="info-header" title="<?php echo $bing['para1'];?>" style="background-image:url('<?php _e($this->options->siteUrl().date('Ymd').'.jpg'); ?>');">
-            <a href="https://www.bing.com/" target="_blank">
+            <a href="https://www.bing.com/?mkt=zh-CN" target="_blank">
                 <div class="arrow01"></div>
             </a>
             <span class="info-header-img">
