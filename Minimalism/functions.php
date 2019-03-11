@@ -31,6 +31,7 @@ function bing(){
 
     $img_name   = date('Ymd').'.jpg'; //每日图片
     $coverstory = date('Ymd').'.json'; //每日故事 json格式
+    $img_info = date('Ymd').'_img.json'; //图片信息 json格式
 
     if (!file_exists($img_name)) {
         $url = "http://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1";
@@ -39,12 +40,18 @@ function bing(){
         $img_url = $output["images"][0]["url"];
         $img = file_get_contents("http://cn.bing.com".$img_url);  
         @file_put_contents($img_name,$img); //写入图片
+        @file_put_contents($img_info,json_encode($output["images"][0])); //写入文本
     }
     if (!file_exists($coverstory)) {
         $json = file_get_contents('http://cn.bing.com/cnhp/coverstory/');
         @file_put_contents($coverstory,$json); //写入文本
     }
-    $coverstory = json_decode(file_get_contents($coverstory),true);
+    //如果封面故事为空
+    $bing = file_get_contents($coverstory);
+    if (empty($bing)){
+        $bing = file_get_contents($img_info);
+    }
+    $coverstory = json_decode($bing,true);
     return $coverstory;
 }
 
