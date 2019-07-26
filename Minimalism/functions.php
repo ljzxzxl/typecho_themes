@@ -27,6 +27,7 @@ function bing(){
     for ($i=1; $i <=30 ; $i++) { 
         @unlink(date('Ymd',time()-24*3600*$i).'.jpg');
         @unlink(date('Ymd',time()-24*3600*$i).'.json');
+        @unlink(date('Ymd',time()-24*3600*$i).'_img.json');
     }
 
     $img_name   = date('Ymd').'.jpg'; //每日图片

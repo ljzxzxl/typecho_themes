@@ -85,7 +85,7 @@
                     <?php while($pages->next()): ?>
                     <a<?php if($this->is('page', $pages->slug)): ?> class="current"<?php endif; ?> href="<?php $pages->permalink(); ?>" title="<?php $pages->title(); ?>"><?php $pages->title(); ?></a>
                     <?php endwhile; ?>
-                    <a href="/os" title="PHP版本：<?php echo PHP_VERSION;?>">实验室</a>
+                    <a href="http://kod.xeylon.com/" title="PHP版本：<?php echo PHP_VERSION;?>">实验室</a>
                     <a href="javascript:;" id="openToc">目录</a>
                 </nav>
             </div>
