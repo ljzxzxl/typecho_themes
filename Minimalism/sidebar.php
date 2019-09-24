@@ -78,7 +78,8 @@
             <?php endif; ?>
             <li><a href="<?php $this->options->feedUrl(); ?>"><?php _e('文章 RSS'); ?></a></li>
             <li><a href="<?php $this->options->commentsFeedUrl(); ?>"><?php _e('评论 RSS'); ?></a></li>
-            <li><a href="http://www.typecho.org" target="_blank">Typecho</a></li>
+            <li><a href="http://www.typecho.org" target="_blank">Typecho官网</a></li>
+            <li><a href="http://www.aicimu.com/" target="_blank">爱词曲谱 | Music Assistant</a></li>
         </ul>
 	</section>
     <?php endif; ?>
