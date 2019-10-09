@@ -90,7 +90,7 @@ function themeFields($layout) {
  */
 function themeInit($archive) {
     if ($archive->is('index')) {
-        $archive->parameter->pageSize = 10; // 自定义条数
+        $archive->parameter->pageSize = 12; // 自定义条数
     }
 }
 

@@ -37,6 +37,20 @@
     </section>
     <?php endif; ?>
 
+    <section class="widget">
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- xeylon_side -->
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-7546170918675493"
+             data-ad-slot="5347153696"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </section>
+
     <?php if (!empty($this->options->sidebarBlock) && in_array('ShowRecentComments', $this->options->sidebarBlock)): ?>
     <section class="widget">
 		<h3 class="widget-title"><?php _e('最近回复'); ?></h3>
@@ -48,6 +62,20 @@
         </ul>
     </section>
     <?php endif; ?>
+
+    <section class="widget">
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- xeylon_side -->
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-7546170918675493"
+             data-ad-slot="5347153696"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </section>
 
     <?php if (!empty($this->options->sidebarBlock) && in_array('ShowCategory', $this->options->sidebarBlock)): ?>
     <section class="widget">

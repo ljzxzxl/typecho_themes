@@ -46,4 +46,13 @@
     <?php else: ?>
     <h3><?php _e('评论已关闭'); ?></h3>
     <?php endif; ?>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- xeylon_banner -->
+    <ins class="adsbygoogle"
+         style="display:inline-block;width:606px;height:90px"
+         data-ad-client="ca-pub-7546170918675493"
+         data-ad-slot="2535844443"></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
 </div>

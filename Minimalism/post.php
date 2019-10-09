@@ -13,7 +13,25 @@
             <li><?php _e('分类: '); ?><?php $this->category(','); ?></li>
         </ul>
         <div class="post-content" itemprop="articleBody">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- xeylon_banner -->
+            <ins class="adsbygoogle"
+                 style="display:inline-block;width:606px;height:90px"
+                 data-ad-client="ca-pub-7546170918675493"
+                 data-ad-slot="2535844443"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
             <?php $this->content(); ?>
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- xeylon_banner -->
+            <ins class="adsbygoogle"
+                 style="display:inline-block;width:606px;height:90px"
+                 data-ad-client="ca-pub-7546170918675493"
+                 data-ad-slot="2535844443"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
         </div>
         <p itemprop="keywords" class="tags"><?php _e('标签: '); ?><?php $this->tags(' ', true, '无'); ?></p>
     </article>
