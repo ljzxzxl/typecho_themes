@@ -46,7 +46,6 @@
     <?php else: ?>
     <h3><?php _e('评论已关闭'); ?></h3>
     <?php endif; ?>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <!-- xeylon_banner_3 -->
     <ins class="adsbygoogle"
          style="display:inline-block;width:606px;height:90px"

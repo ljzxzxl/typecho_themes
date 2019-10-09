@@ -13,8 +13,7 @@
             <li><?php _e('分类: '); ?><?php $this->category(','); ?></li>
         </ul>
         <div class="post-content" itemprop="articleBody">
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-            <!-- xeylon_banner -->
+            <!-- xeylon_banner_1 -->
             <ins class="adsbygoogle"
                  style="display:inline-block;width:606px;height:90px"
                  data-ad-client="ca-pub-7546170918675493"
@@ -23,7 +22,6 @@
                 (adsbygoogle = window.adsbygoogle || []).push({});
             </script>
             <?php $this->content(); ?>
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
             <!-- xeylon_banner_2 -->
             <ins class="adsbygoogle"
                  style="display:inline-block;width:606px;height:90px"

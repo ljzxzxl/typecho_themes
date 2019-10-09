@@ -38,8 +38,7 @@
     <?php endif; ?>
 
     <section class="widget">
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <!-- xeylon_side -->
+        <!-- xeylon_side_1 -->
         <ins class="adsbygoogle"
              style="display:block"
              data-ad-client="ca-pub-7546170918675493"
@@ -64,7 +63,6 @@
     <?php endif; ?>
 
     <section class="widget">
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <!-- xeylon_side_2 -->
         <ins class="adsbygoogle"
              style="display:block"
