@@ -29,6 +29,13 @@
     <script src="http://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
     <script src="http://cdn.staticfile.org/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-7546170918675493",
+            enable_page_level_ads: true
+        });
+    </script>
     <script>
         var _hmt = _hmt || [];
         (function() {
