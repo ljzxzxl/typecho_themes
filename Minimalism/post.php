@@ -24,11 +24,11 @@
             </script>
             <?php $this->content(); ?>
             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-            <!-- xeylon_banner -->
+            <!-- xeylon_banner_2 -->
             <ins class="adsbygoogle"
                  style="display:inline-block;width:606px;height:90px"
                  data-ad-client="ca-pub-7546170918675493"
-                 data-ad-slot="2535844443"></ins>
+                 data-ad-slot="1462435926"></ins>
             <script>
                 (adsbygoogle = window.adsbygoogle || []).push({});
             </script>
