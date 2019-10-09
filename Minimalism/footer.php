@@ -101,14 +101,5 @@
     };
     $(function(){ $(".post-content img").popImg(); });
 </script>
-<script>
-    var _hmt = _hmt || [];
-    (function() {
-        var hm = document.createElement("script");
-        hm.src = "https://hm.baidu.com/hm.js?f13ce2ff1832a07924b536cb4dc7dc82";
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(hm, s);
-    })();
-</script>
 </body>
 </html>
