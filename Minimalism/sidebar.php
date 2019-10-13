@@ -40,11 +40,9 @@
     <section class="widget">
         <!-- xeylon_side_1 -->
         <ins class="adsbygoogle"
-             style="display:block"
+             style="display:inline-block;width:333px;height:250px"
              data-ad-client="ca-pub-7546170918675493"
-             data-ad-slot="5347153696"
-             data-ad-format="auto"
-             data-full-width-responsive="true"></ins>
+             data-ad-slot="5347153696"></ins>
         <script>
             (adsbygoogle = window.adsbygoogle || []).push({});
         </script>
@@ -61,19 +59,6 @@
         </ul>
     </section>
     <?php endif; ?>
-
-    <section class="widget">
-        <!-- xeylon_side_2 -->
-        <ins class="adsbygoogle"
-             style="display:block"
-             data-ad-client="ca-pub-7546170918675493"
-             data-ad-slot="3631920809"
-             data-ad-format="auto"
-             data-full-width-responsive="true"></ins>
-        <script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
-    </section>
 
     <?php if (!empty($this->options->sidebarBlock) && in_array('ShowCategory', $this->options->sidebarBlock)): ?>
     <section class="widget">
@@ -109,5 +94,16 @@
         </ul>
 	</section>
     <?php endif; ?>
+
+    <section class="widget">
+        <!-- xeylon_side_2 -->
+        <ins class="adsbygoogle"
+             style="display:inline-block;width:333px;height:250px"
+             data-ad-client="ca-pub-7546170918675493"
+             data-ad-slot="3631920809"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </section>
 
 </div><!-- end #sidebar -->
