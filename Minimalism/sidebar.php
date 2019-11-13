@@ -90,7 +90,7 @@
             <li><a href="<?php $this->options->feedUrl(); ?>"><?php _e('文章 RSS'); ?></a></li>
             <li><a href="<?php $this->options->commentsFeedUrl(); ?>"><?php _e('评论 RSS'); ?></a></li>
             <li><a href="http://www.typecho.org" target="_blank">Typecho</a></li>
-            <li><a href="http://www.aicimu.com/" target="_blank">爱词曲谱</a></li>
+            <li><a href="http://www.iphoneplay.cn/" target="_blank">iPhone游戏</a></li>
         </ul>
 	</section>
     <?php endif; ?>
