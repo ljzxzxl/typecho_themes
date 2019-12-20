@@ -9,7 +9,7 @@
 </div>
 <footer id="footer" role="contentinfo">
     <script type="text/javascript" src="https://s9.cnzz.com/z_stat.php?id=1278091307&web_id=1278091307"></script>
-	&copy; <?php echo date('Y'); ?> <a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title(); ?></a> | 沪ICP备14044094号-1 | Theme By <a href="https://github.com/WarnerYang/typecho_themes">Minimalism</a>
+    &copy; <?php echo date('Y'); ?> <a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title(); ?></a> | <a href="http://www.beian.miit.gov.cn/" target="_blank">沪ICP备14044094号-1</a> | Theme By <a href="https://github.com/WarnerYang/typecho_themes">Minimalism</a>
     | 网站已运行 <?php getBuildTime(); ?>
 </footer><!-- end #footer -->
 
